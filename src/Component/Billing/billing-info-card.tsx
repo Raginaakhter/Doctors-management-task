@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Edit, Trash2 } from "lucide-react"
-import type { BillingInfo } from "@/types/dashboard"
+import type { BillingInfo } from "@/types/dashboard";
 
 interface BillingInfoCardProps {
   billingInfo: BillingInfo[]
