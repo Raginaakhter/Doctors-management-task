@@ -54,6 +54,24 @@ export const registerUser = async (data: {
    
 
 
+ // FRONTEND CHECK: if already registered with another role
+    if (
+      error.response?.data?.message?.includes("already registered") &&
+      error.response?.data?.existingUser
+    ) {
+      const existingRole = error.response.data.existingUser.role;
+      return {
+        success: false,
+        message: `User already exists with role ${existingRole}, cannot register as ${data.role}`,
+      };
+    }
+
+    return {
+      success: false,
+      message: error.response?.data?.message || error.message,
+    };
+  }
+};
 
 
 
@@ -64,7 +82,7 @@ export const registerUser = async (data: {
 
 
 
-    
+
 // LOGIN USER
 export const loginUser = async (data: {
   email: string;
