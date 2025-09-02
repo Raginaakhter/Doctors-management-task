@@ -20,7 +20,7 @@ export const columns: ColumnDef<Payment>[] = [
     header: "AUTHOR",
     cell: ({ row }) => (
       <div className="flex items-center gap-3">
-        {/* Author image */}
+        {/* Author image .. */}
         <img
           src={row.original.avatar || "https://i.ibb.co/0p9gCdVQ/155250069.jpg"}
           alt={row.original.AUTHOR}
