@@ -9,7 +9,7 @@ const DoctorDashboard = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [page, setPage] = useState(1);
-  const [status, setStatus] = useState(""); // Pending, Completed, Cancelled
+  const [status, setStatus] = useState("");
 
   const fetchAppointments = async () => {
     try {
