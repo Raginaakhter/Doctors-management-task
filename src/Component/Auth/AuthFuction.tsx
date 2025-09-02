@@ -73,16 +73,6 @@ export const registerUser = async (data: {
   }
 };
 
-
-
-
-
-
-
-
-
-
-
 // LOGIN USER
 export const loginUser = async (data: {
   email: string;

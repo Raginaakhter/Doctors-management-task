@@ -132,14 +132,14 @@ const Login = () => {
       </div>
 
       {/* Left side - Banner Image */}
-      <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
+   
+   <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('https://i.ibb.co/4RTKzV6C/images.png')" }}
         />
         <div className="absolute inset-0 bg-black/40" />
       </div>
-
     </div>
   );
 };
