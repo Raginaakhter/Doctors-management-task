@@ -22,6 +22,7 @@ const Appointments = () => {
 
     try {
       setLoading(true);
+      // axios
       const response = await axios.post(
         "https://appointment-manager-node.onrender.com/api/v1/appointments",
         {
