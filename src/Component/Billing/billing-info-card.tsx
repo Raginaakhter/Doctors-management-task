@@ -33,7 +33,7 @@ export function BillingInfoCard({ billingInfo }: BillingInfoCardProps) {
                   className="text-white/70 border-white/20 hover:bg-white/10 bg-transparent"
                 >
                   <Edit className="w-4 h-4 mr-1" />
-                  EDIT
+       Edit
                 </Button>
               </div>
             </div>
