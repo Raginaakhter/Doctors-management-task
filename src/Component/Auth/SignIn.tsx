@@ -73,7 +73,7 @@ const Login = () => {
         <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-bold text-center mb-6">Please Sign In</h2>
 
-          {/* Role Tabs */}
+          {/* Role Tab*/}
           <div className="flex mb-6">
             <button
               type="button"
