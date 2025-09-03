@@ -16,7 +16,7 @@ const signupSchema = z.object({
   photo_url: z.string().optional(),
 });
 
-// Type
+// Type 
 type SignUpFormData = z.infer<typeof signupSchema>;
 
 const SignUp = () => {
