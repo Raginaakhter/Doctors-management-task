@@ -51,10 +51,7 @@ export const registerUser = async (data: {
       return { success: false, message: response.data.message };
     }
   } catch (error: any) {
-   
-
-
- // FRONTEND CHECK: if already registered with another role
+    // FRONTEND CHECK: if already registered with another role
     if (
       error.response?.data?.message?.includes("already registered") &&
       error.response?.data?.existingUser
@@ -73,7 +70,7 @@ export const registerUser = async (data: {
   }
 };
 
-// LOGIN USER
+// login user
 export const loginUser = async (data: {
   email: string;
   password: string;

@@ -3,7 +3,7 @@
 const Billing = () => {
   return (
     <div>
-      This is a billing page 
+      this is a billing page 
       
     </div>
   );

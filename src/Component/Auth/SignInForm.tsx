@@ -22,7 +22,7 @@ const SignInForm = () => {
       {/* Form Card */}
       <Card className="bg-slate-800/50 lg:w-[350px] border-slate-700 backdrop-blur-sm">
         <CardContent className="p-8 space-y-6">
-{/*  */}
+
 
           {/* Email Field */}
           <div className="space-y-2">
